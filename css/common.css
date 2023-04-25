@@ -12,7 +12,18 @@ body {
   color: #212121;
   line-height: 1.5;
 }
-
+li {
+  list-style: none;
+}
+a {
+  color: #212121;
+  font-weight: 500;
+  font-size: 25px;
+  text-decoration: none;
+}
+a:hover {
+  color: blue;
+}
 input {
   padding: 8px;
   font: inherit;
